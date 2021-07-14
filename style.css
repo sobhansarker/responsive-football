@@ -41,6 +41,10 @@ a{
     font-size: 20px;
 }
 
+.menu-bar-icon {
+    display: none;
+}
+
 .menu-bar ul{
     display: flex;
     justify-content: space-between;
@@ -148,18 +152,105 @@ footer img{
     padding: 10px;
 }
 
-/* and (min-device-width : 320px) */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+
+
+
 /* Smartphones (portrait and landscape) ----------- */
-@media screen and (max-width : 480px) {
-    body{
-        background-color: #c0ffce;
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .menu-bar{
+      display: none;
+  }
+
+  .menu-bar-icon {
+    display: block;
+}
+
+  .menu-bar ul{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 5fr;
+      grid-gap: 25px;
+  }
+
+  header{
+    background-image: url(images/top-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+  .header .intro >div{
+    padding: 25px;
+  }
+
+  .header .intro .intro-description{
+      width: 100%;
+  }  
+
+  .header .intro .into-pic{
+    width: 100%;
+}
+
+.header .intro .into-pic img{
+    margin: auto;
+}
+    .header .intro{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        text-align: center;
+
     }
 
     .players-gallery{
-        width: 90%;
+        width: 80%;
         grid-template-columns: 1fr;
         grid-gap: 25px;
     }
+
+
+    .into-pic img{
+        margin-left: -50px;
+    }
+  
+
+    .highlights-body h1{
+        /* margin: auto; */
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .highlights-body .half-width{
+        width: 100%;
+    }
+    
+    .highlights-body .intro{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        grid-gap: 25px;
+        
+        
+        
+    }
+
+
 
     .ft-1{
         width: 80%;
@@ -177,6 +268,12 @@ footer img{
     }
     
  }
+
+
+
+
+
+
 
 
 
