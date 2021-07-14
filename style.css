@@ -275,6 +275,37 @@ footer img{
 
 
 
+ /* Tab (portrait and landscape) ----------- */
+
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: lightgrey;
+    }
+
+    .player-description{
+        overflow: hidden;
+    }
+
+    .players-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ft-1{
+        width: 60%;
+    }
+
+    .f-icons{
+        width: 50%;
+    }
+}
+
+
+
+
+
 
 
 
