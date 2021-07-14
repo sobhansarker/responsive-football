@@ -72,7 +72,7 @@ img{
 
 
 section{
-    padding: 100px;
+    padding: 100px 0;
 }
 
 /* -----------------------------players gallery---------------------------------------------- */
@@ -104,10 +104,16 @@ section{
 
 /* -------------------------highlights section---------------------------------- */
 
-.highlights{
+.highlights-body{
     background-image: url(images/bg_2nd.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.highlights{
+    
+    width: 75%;
+    margin: auto;
 }
 
 .highlights .into-pic{
@@ -120,7 +126,6 @@ section{
 footer{
     width: 80%;
     margin: auto ;
-    margin-top: 100px;
     text-align: center;
 }
 
@@ -142,6 +147,36 @@ footer img{
 .f-icons a{
     padding: 10px;
 }
+
+/* and (min-device-width : 320px) */
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width : 480px) {
+    body{
+        background-color: #c0ffce;
+    }
+
+    .players-gallery{
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+    }
+
+    .ft-1{
+        width: 80%;
+    }
+
+    .f-icons{
+        width: 60%;
+    }
+
+    footer{
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+ }
 
 
 
