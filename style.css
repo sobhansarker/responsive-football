@@ -101,3 +101,49 @@ section{
 .player-description{
     height: 50%;
 }
+
+/* -------------------------highlights section---------------------------------- */
+
+.highlights{
+    background-image: url(images/bg_2nd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.highlights .into-pic{
+    margin-left: 50px;
+    
+}
+
+/* -------------------------Footer section ---------------------------------- */
+
+footer{
+    width: 80%;
+    margin: auto ;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer img{
+    margin: auto ;
+}
+
+.ft-1{
+    width: 40%;
+    margin: auto;
+}
+
+.f-icons{
+    width: 25%;
+    display: flex;
+    margin: auto;
+}
+
+.f-icons a{
+    padding: 10px;
+}
+
+
+
+
+
