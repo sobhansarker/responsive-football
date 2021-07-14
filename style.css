@@ -84,7 +84,20 @@ section{
     grid-gap: 25px;
 }
 
+.players-gallery img{
+    height: 100%;
+}
+
 .box{
+    padding: 9px;
     box-shadow: .02px .02px 50px gray;
     height: 400px;
+}
+
+.player-pic{
+    height: 50%;
+}
+
+.player-description{
+    height: 50%;
 }
