@@ -104,6 +104,7 @@ section{
 
 .player-description{
     height: 50%;
+    overflow: hidden;
 }
 
 /* -------------------------highlights section---------------------------------- */
@@ -123,6 +124,31 @@ section{
 .highlights .into-pic{
     margin-left: 50px;
     
+}
+
+
+
+
+/* ----------------contact-------------------------- */
+.contact input {
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    
+}
+
+.contact .btn{
+    width: 30%;
+    margin: auto;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    text-align: center;
 }
 
 /* -------------------------Footer section ---------------------------------- */
@@ -279,7 +305,7 @@ footer img{
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     body{
         background-color: lightgrey;
     }
