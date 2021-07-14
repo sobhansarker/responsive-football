@@ -284,6 +284,12 @@ footer img{
         background-color: lightgrey;
     }
 
+    header .intro{
+        display: flex;
+        align-items: center;
+        padding: 45px 0;
+    }
+
     .player-description{
         overflow: hidden;
     }
@@ -300,6 +306,30 @@ footer img{
     .f-icons{
         width: 50%;
     }
+
+    .highlights .intro{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .highlights .intro h1{
+        font-size: 35px;
+    }
+
+    /* .highlights .intro{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+
+    .highlights .intro .intro-description{
+        width: 100%;
+        margin-bottom: 30px;
+    } */
+    
+   
 }
 
 
